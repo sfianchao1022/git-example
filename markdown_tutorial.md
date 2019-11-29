@@ -25,7 +25,7 @@
 提示
 !!!
 
-!!! error error
+!!! error error (github 不支援)
 錯誤
 !!!
 
