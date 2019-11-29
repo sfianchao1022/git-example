@@ -56,4 +56,9 @@ git push -u origin master
 git push
 ```
 
+6. 刪除本地端 file
+```
+git rm "git.md"
+```
+
 
