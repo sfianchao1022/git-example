@@ -21,7 +21,7 @@
 <->
 <--->
 
-!!! hint tips
+!!! hint tips (github 不支援)
 提示
 !!!
 
