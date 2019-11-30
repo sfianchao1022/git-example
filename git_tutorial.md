@@ -66,6 +66,7 @@ git push
 
 6. 刪除本地端 file
 ```
+//尚未add前
 git rm "git.md"
 ```
 
