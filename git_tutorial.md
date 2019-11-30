@@ -70,7 +70,7 @@ git rm "git.md"
 ```
 
 ---
-### git
+### git回復
 
 查看commit過的版本
 ```
