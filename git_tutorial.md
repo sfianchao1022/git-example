@@ -7,6 +7,9 @@
 
 # git 語法 
 ## 使用cmder
+!!! caution
+若cmder停住，":q"即可回復
+!!! 
 
 ### git 使用流程 
 
@@ -22,7 +25,10 @@ $ git init
 ```
 //追蹤 Git.md
 git add "Git.md"
+
 //加入追蹤目錄下所有檔案
+//不能add 空的資料夾
+//在repo裡增加新的folder要重新add repo
 git add .
 
 //解除追蹤
@@ -69,6 +75,11 @@ git push
 //尚未add前
 git rm "git.md"
 ```
+!!! note 
+若修改file副檔名，則該file要重新add
+
+!!!
+
 
 ---
 ### git回復
