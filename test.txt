@@ -2,10 +2,10 @@ hello git
 
 git add
 
-text modify
+test modify
 
-text change 
+test change 
 
-text no add
+test no add
 
 test 
