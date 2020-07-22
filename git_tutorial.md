@@ -47,12 +47,19 @@ git diff
 ```
 //-m 代表commit message 
 git commit -m "Git.md"
+
+//若有刪除或修改檔案 要重新add & commit進本地repo
+//-a 代表 add
+git commit -a -m "test.txt"
 ```
 
 4. github創建repository, 本地repository(master)連接github repository(origin)
 ```
 //登入github
 git config --global user.username <你的 github 使用者名稱>
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
 
 // 本地端對應到遠端repository URL
 git remote add origin <remote 網址>
@@ -66,12 +73,15 @@ git remote add origin <remote 網址>
 //第一次push
 git push -u origin master
 
-//第二次以後可簡寫
+//已經與github連線過，第二次以後可簡寫
 git push
 ```
 
 6. 刪除本地端 file
 ```
+//直接刪除file
+rm -rf <file>
+
 //尚未add前
 git rm "git.md"
 ```
@@ -79,6 +89,23 @@ git rm "git.md"
 若修改file副檔名，則該file要重新add
 
 !!!
+
+7. 刪除本地端 branch
+```
+//$ ls -a    #找到目录下.git
+C:\Users\hmnic\Google 雲端硬碟 (b034020026@g-mail.nsysu.edu.tw)\web\jquery_tutorial (master)
+λ ls -a
+./  ../  .git/  panel_flip.html  README.md
+
+//$ rm -rf  .git   #删除
+C:\Users\hmnic\Google 雲端硬碟 (b034020026@g-mail.nsysu.edu.tw)\web\jquery_tutorial (master)
+λ rm -rf .git
+
+//可以看到master分支已经删除（jquery_tutorial中隐藏的.git文件夹已经删除）
+C:\Users\hmnic\Google 雲端硬碟 (b034020026@g-mail.nsysu.edu.tw)\web\jquery_tutorial
+λ ls
+panel_flip.html  README.md
+```
 
 
 ---
@@ -105,5 +132,8 @@ Date:   Sat Nov 30 15:52:33 2019 +0800
 git reset --hard b50e327
 ```
 
-
+更新git
+```
+git update-git-for-windows
+```
 
