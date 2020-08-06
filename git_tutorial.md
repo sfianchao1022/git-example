@@ -11,7 +11,13 @@
 若cmder停住，":q"即可回復
 !!! 
 
-### git 使用流程 
+### git 使用流程
+
+github建立一個repo
+!!! caution
+github建立分支時不要加入READ.md 因為會導致無法跟本地端串接
+若repo已經有檔案 則本地端需要用pull
+!!!
 
 建立本地file 指定為repository
 ```
@@ -45,7 +51,7 @@ git diff
 ```
 3. commit file 進入 repository
 ```
-//-m 代表commit message 
+//-m 代表commit message
 git commit -m "Git.md"
 
 //若有刪除或修改檔案 要重新add & commit進本地repo
