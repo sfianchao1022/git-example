@@ -11,15 +11,15 @@
 若cmder停住，":q"即可回復
 !!! 
 
-### git 使用流程
+## git 使用流程
 
-github建立一個repo
+### github建立一個repo
 !!! caution
 github建立分支時不要加入READ.md 因為會導致無法跟本地端串接
 若repo已經有檔案 則本地端需要用pull
 !!!
 
-建立本地file 指定為repository
+### 建立本地file 指定為repository
 ```
 // 移動到 tutorial 資料夾
 $ cd tutorial
