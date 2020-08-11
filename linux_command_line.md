@@ -25,6 +25,15 @@ README.md		git_tutorial.md		markdown_tutorial.md	test.txt
 !!!
 
 # mac terminal 指令
+
+cd ~ //回到terminal預設目錄
+```
+(base) zhaoshoufeng@zhaoshoufengdeMacBook-Pro git-example % cd ~
+(base) zhaoshoufeng@zhaoshoufengdeMacBook-Pro ~ % ls
+Applications		Downloads		Library			Pictures		git-example
+Desktop			GoogleDrive_b034020026	Movies			Public			opt
+Documents		IdeaProjects		Music			PycharmProjects
+```
 [Mac OS X Terminal 終端機常用語法教學 \| 梅問題．教學網](https://www.minwt.com/mac/14653.html)
 
 ***
