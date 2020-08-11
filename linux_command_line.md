@@ -7,6 +7,17 @@
 切換至所指定絕對路徑的目錄: cd 磁碟名:/目錄名
 切換至指定磁碟: cd 磁碟名:
 
+!!! caution
+若遇到空格或特殊符號，前面要加入"\"
+```
+(base) zhaoshoufeng@zhaoshoufengdeMacBook-Pro git-example % ls
+README.md		git_tutorial.md		linux command line.md	markdown_tutorial.md	test.txt
+(base) zhaoshoufeng@zhaoshoufengdeMacBook-Pro git-example % rm -rf linux\ command\ line.md
+(base) zhaoshoufeng@zhaoshoufengdeMacBook-Pro git-example % ls
+README.md		git_tutorial.md		markdown_tutorial.md	test.txt
+```
+!!!
+
 # mac terminal 指令
 [Mac OS X Terminal 終端機常用語法教學 \| 梅問題．教學網](https://www.minwt.com/mac/14653.html)
 
