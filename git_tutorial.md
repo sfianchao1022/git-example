@@ -55,7 +55,7 @@ git diff
 ```
 3. commit file 進入 repository
 ```
-//-m 代表commit message
+//-m 代表commit message 更新本地分支
 git commit -m "Git.md"
 
 //若有刪除或修改檔案 要重新add & commit進本地repo
@@ -120,15 +120,24 @@ panel_flip.html  README.md
 ---
 # git從遠端拉檔案回本地端
 
-## git clone
+## 本地端無檔案 git clone
 ```
 //git clone <URL>
 //會把整個git-example目錄(包含.git) clone 到當前目錄之下
 git clone https://github.com/sfianchao1022/git-example.git
 ```
 
+## 本地端與遠端檔案不一致 git pull
+
+[Pull 下載更新 - 為你自己學 Git \| 高見龍](https://gitbook.tw/chapters/github/pull-from-github.html)
+
+!!! note
+git pull = git fetch + git merge
+Pull 指令其實就是去上線抓東西下來（Fetch），並且更新本機的進度（Merge）
+!!! 
 
 ---
+
 ## git回復
 
 查看commit過的版本
