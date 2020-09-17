@@ -18,10 +18,10 @@
 ## git 使用流程
 
 ### github建立一個repo
-!!! caution
-github建立分支時不要加入READ.md 因為會導致無法跟本地端串接	github建立已存在的分支時不要加入READ.md 因為會導致無法跟其他電腦的本地端串接 -> 改用 git clone
+!!! caution 已有repo
+github建立已存在的分支時不要加入READ.md 因為會導致無法跟其他電腦的本地端串接 -> 改用 git clone
 
-若repo已經有檔案 則本地端需要用pull	若repo已經有檔案 則本地端需要用pull
+若repo已經有檔案 則本地端需要用pull
 !!!
 
 ### 建立本地file 指定為repository
