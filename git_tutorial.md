@@ -19,7 +19,7 @@
 
 ### github建立一個repo
 !!! caution
-github建立已存在的分支時不要加入READ.md 因為會導致無法跟其他電腦的本地端串接 -> 改用 git clone
+github建立分支時不要加入READ.md 因為會導致無法跟本地端串接
 若repo已經有檔案 則本地端需要用pull
 !!!
 
@@ -135,13 +135,9 @@ git clone https://github.com/sfianchao1022/git-example.git
 git pull = git fetch + git merge
 Pull 指令其實就是去上線抓東西下來（Fetch），並且更新本機的進度（Merge）
 !!! 
-<<<<<<< HEAD
-
 !!! hint
-先fetch + merge 再pull (先抓資料下來 再把分支移到正確版本)
+先 git fetch + git merge 再 git pull (先抓資料下來 再把分支移到正確版本)
 !!!
-=======
->>>>>>> refs/remotes/origin/master
 
 ---
 
