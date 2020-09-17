@@ -13,3 +13,5 @@ test no add
 test delete
 
 pull test
+
+windows push test
