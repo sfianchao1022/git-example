@@ -21,20 +21,16 @@
 <->
 <--->
 
-!!! hint tips (github 不支援)
+!!! hint hint (github 不支援)
 提示
 !!!
 
-!!! error error 
+!!! error error (github 不支援)
 錯誤
 !!!
 
 !!! caution caution
 警告 
-!!!
-
-!!! attention attention
-注意
 !!!
 
 !!! note note
@@ -71,4 +67,4 @@ int main(void){
 ## image
 ![IU](https://i.gifer.com/8RGt.gif "IU")
 
-![](https://thumbs.gfycat.com/PersonalGreatAsianconstablebutterfly-size_restricted.gif)
+![iu](https://thumbs.gfycat.com/PersonalGreatAsianconstablebutterfly-size_restricted.gif)

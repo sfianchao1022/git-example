@@ -1,3 +1,5 @@
+test file
+
 hello git
 
 git add
@@ -9,3 +11,7 @@ test change
 test no add
 
 test delete
+
+pull test
+
+windows push test
