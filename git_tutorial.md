@@ -1,8 +1,12 @@
-# Git
+# git tutorial
+
+# git
 - [Learn-Git-in-30-days/README.md at master · doggy8088/Learn-Git-in-30-days · GitHub](https://github.com/doggy8088/Learn-Git-in-30-days/blob/master/zh-tw/README.md)
 - [Git 與 Github 版本控制基本指令與操作入門教學 \| TechBridge 技術共筆部落格](https://blog.techbridge.cc/2018/01/17/learning-programming-and-coding-with-python-git-and-github-tutorial/)
 - [【Git - 刪除 GitHub 上的 Repository】 - 法蘭克的iOS世界 - Medium](https://medium.com/@mikru168/github-%E5%88%AA%E9%99%A4github%E4%B8%8A%E7%9A%84%E5%B0%88%E6%A1%88-a3218b1beafe)
 - [回復GIT不同區域修改 · GIT教學](https://kingofamani.gitbooks.io/git-teach/content/chapter_2/chapter_2reset_file.html)
+- mac homebrew安裝git
+  - [Git與GitHub介紹，軟體版本控制基本教學｜ALPHA Camp Blog](https://tw.alphacamp.co/blog/git-github-version-control-guide)
 ---
 
 # git 語法 
@@ -51,7 +55,7 @@ git diff
 ```
 3. commit file 進入 repository
 ```
-//-m 代表commit message
+//-m 代表commit message 更新本地分支
 git commit -m "Git.md"
 
 //若有刪除或修改檔案 要重新add & commit進本地repo
@@ -113,9 +117,32 @@ C:\Users\hmnic\Google 雲端硬碟 (b034020026@g-mail.nsysu.edu.tw)\web\jquery_t
 panel_flip.html  README.md
 ```
 
+---
+# git從遠端拉檔案回本地端
+
+## 本地端無檔案 git clone
+```
+//git clone <URL>
+//會把整個git-example目錄(包含.git) clone 到當前目錄之下
+git clone https://github.com/sfianchao1022/git-example.git
+```
+
+## 本地端與遠端檔案不一致 git pull
+
+[Pull 下載更新 - 為你自己學 Git \| 高見龍](https://gitbook.tw/chapters/github/pull-from-github.html)
+
+!!! note
+git pull = git fetch + git merge
+Pull 指令其實就是去上線抓東西下來（Fetch），並且更新本機的進度（Merge）
+!!! 
+
+!!! hint
+先fetch + merge 再pull (先抓資料下來 再把分支移到正確版本)
+!!!
 
 ---
-### git回復
+
+## git回復
 
 查看commit過的版本
 ```
