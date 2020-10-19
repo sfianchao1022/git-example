@@ -24,6 +24,22 @@ README.md		git_tutorial.md		markdown_tutorial.md	test.txt
 ```
 !!!
 
+## vim 終端機上的文本編輯器
+esc 返回
+I 插入文字
+E 編輯文字
+:w 寫入
+:q 退出
+```
+sudo vim index.html
+```
+
+## chmod 修改權限
+777：所有權限都開放
+```
+sudo chmod 777 index.html
+```
+
 # mac terminal 指令
 
 cd ~ //回到terminal預設目錄
