@@ -19,7 +19,7 @@
 
 ### github建立一個repo
 !!! caution 已有repo
-github建立已存在的分支時不要加入READ.md 因為會導致無法跟其他電腦的本地端串接 -> 改用 git clone
+github建立已存在的分支時不要加入README.md 因為會導致無法跟其他電腦的本地端串接 -> 改用 git clone
 
 若repo已經有檔案 則本地端需要用pull
 !!!
@@ -142,7 +142,23 @@ Pull 指令其實就是去上線抓東西下來（Fetch），並且更新本機�
 
 ---
 
-## git回復
+# git branch
+
+## create branch
+git branch <new_branch_name>
+
+## change branch
+git checkout <branch_name>
+
+- To see local branches, run this command:
+git branch
+- To see remote branches, run this command:
+git branch -r
+- To see all local and remote branches, run this command:
+git branch -a
+
+
+# git回復
 
 查看commit過的版本
 ```
@@ -155,8 +171,6 @@ Author: sfianchao1022 <sfianchao@yahoo.com.tw>
 Date:   Sat Nov 30 15:52:33 2019 +0800
 
     HelloWorld
-
-
 ```
 
 強制回到某一個版本
@@ -165,8 +179,12 @@ Date:   Sat Nov 30 15:52:33 2019 +0800
 git reset --hard b50e327
 ```
 
-更新git
+## update git on windows
 ```
 git update-git-for-windows
 ```
 
+# 切換github帳號
+## 解决 github push failed (remote: Permission to userA/repo.git denied to userB.)
+- [解决 github push failed (remote: Permission to userA/repo.git denied to userB.)_付小华的博客-CSDN博客](https://blog.csdn.net/klxh2009/article/details/76019742)
+- [彻底解决github push failed问题（remote: Permission to userA/repo.git denied to userB）_飞鸿踏雪泥的博客-CSDN博客](https://blog.csdn.net/weixin_38214171/article/details/95080746)
